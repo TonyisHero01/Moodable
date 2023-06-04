@@ -30,15 +30,15 @@
         app:backgroundTint="#F4F2F2"
         app:layout_constraintBottom_toTopOf="@+id/calendarView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.904"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.941" />
 
     <ImageButton
         android:id="@+id/emoji1"
-        android:layout_width="108dp"
-        android:layout_height="114dp"
+        android:layout_width="100dp"
+        android:layout_height="107dp"
         android:background="#00000000"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -47,8 +47,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/calendarView"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/smile"
-        tools:ignore="SpeakableTextPresentCheck"/>
+        app:srcCompat="@drawable/happy"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/emoji2"
@@ -63,21 +63,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/calendarView"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/love"
+        app:srcCompat="@drawable/in_love"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/emoji3"
-        android:layout_width="109dp"
-        android:layout_height="83dp"
+        android:layout_width="103dp"
+        android:layout_height="99dp"
         android:background="#00000000"
-        android:scaleType="centerCrop"
+        android:scaleType="fitStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.241"
+        app:layout_constraintHorizontal_bias="0.261"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emoji1"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.114"
         app:srcCompat="@drawable/angry"
         tools:ignore="SpeakableTextPresentCheck" />
 
@@ -107,5 +107,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backToMainButton"
+        android:layout_width="88dp"
+        android:layout_height="34dp"
+        android:background="#F4F2F2"
+        android:text="Back"
+        android:textColor="#12B6B6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

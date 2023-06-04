@@ -11,20 +11,20 @@
         android:id="@+id/titleTextView"
         android:layout_width="113dp"
         android:layout_height="52dp"
-        android:text="Moodable"
+        android:text="@string/moodable2"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.163" />
+        app:layout_constraintVertical_bias="0.191" />
 
     <Button
         android:id="@+id/enterButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#D3DF97"
-        android:text="Enter"
+        android:text="@string/enter2"
         android:textColor="#FDFEFE "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
